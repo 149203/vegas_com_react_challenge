@@ -1,0 +1,16 @@
+// Load order matters. Fonts, frameworks, globals, verticals.
+// Use relative paths so Webstorm automatically tracks when files get moved
+
+// FONTS
+
+@import url(https://fonts.googleapis.com/css?family=Heebo:300,400,500,700);
+
+// 3RD PARTY SCSS
+
+@import "bootstrap/bootstrap";
+
+// SCSS GLOBAL PARTIALS
+
+@import "variables";
+@import "breakpoints";
+@import "styles";
