@@ -2,7 +2,23 @@ html {
    overflow-y: scroll;
 }
 
+.nav {
+   color: $purple;
+   font-weight: 400;
+}
+
 h1 {
-   // this is for wireframing
-   background-color: $purple__light;
+   font-size: 38px;
+   color: $grey;
+}
+
+p.subtext {
+   color: $grey;
+}
+
+p.price {
+   font-size: 4.25rem;
+   color: $orange;
+   margin-top: -1.5rem;
+   font-weight: 700;
 }

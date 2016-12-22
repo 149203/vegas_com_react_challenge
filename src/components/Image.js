@@ -1,6 +1,5 @@
 import React from 'react'
 
 const Image = () =>
- <h1>Image</h1>
-
+ <img className="img-fluid" src="../public/assets/images/venetian2.jpg"/>
 export default Image

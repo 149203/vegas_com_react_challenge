@@ -4,7 +4,6 @@ import { render } from 'react-dom'
 // components
 import Nav from './components/Nav'
 import HotelOverview from './components/HotelOverview'
-import HotelRate from './components/HotelRate'
 import Image from './components/Image'
 import AllRates from './components/AllRates'
 import TabBar from './components/TabBar'
@@ -26,7 +25,7 @@ const App = () =>
    <div className="row">
       <div className="col-xs-12 col-lg-9 float-xs-right">
          <HotelOverview/>
-         <HotelRate/>
+         <div className="clearfix"></div>
          <TabBar/>
          <Description/>
          <Details/>

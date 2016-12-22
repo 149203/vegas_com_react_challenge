@@ -1,6 +1,6 @@
 import React from 'react'
 
 const Nav = () =>
- <h1>Nav</h1>
+ <p className="nav mb-1 mt-1">SEE ALL LAS VEGAS HOTELS</p>
 
 export default Nav
