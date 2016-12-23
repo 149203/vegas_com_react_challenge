@@ -52,7 +52,7 @@ class Description extends React.Component {
       if (this.state.is_excerpt)
 
          return (
-          <div className="row mt-1 grey__dark" style={{ marginLeft: '6px' }}>
+          <div className="row mt-1 grey__dark" style={{ marginLeft: '6px', marginRight: '6px' }}>
              <div className="col-xs-12">
 
                 {excerpt}
@@ -64,7 +64,7 @@ class Description extends React.Component {
          )
 
       else return (
-       <div className="row mt-1 grey__dark" style={{ marginLeft: '6px' }}>
+       <div className="row mt-1 grey__dark" style={{ marginLeft: '6px', marginRight: '6px'}}>
           <div className="col-xs-12">
 
              {full_description}
