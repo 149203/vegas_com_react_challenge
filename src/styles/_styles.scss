@@ -65,6 +65,7 @@ div.all_rates {
    padding: 1rem 0;
    font-size: 1.1rem;
    border: 0;
+   @include media-breakpoint-only(xs) { font-size: 0.8rem; }
 }
 
 .btn-tab:hover {
