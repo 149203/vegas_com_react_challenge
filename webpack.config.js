@@ -27,6 +27,10 @@ module.exports = {
             // use 'loaders' for an array of loaders
             // loaders run BOTTOM (sass) to TOP (style)
             // we use 'array style' as opposed to ! delimiter style
+         },
+         {
+            test: /\.json$/,
+            loader: 'json'
          }
       ]
    }
