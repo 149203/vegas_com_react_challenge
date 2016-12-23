@@ -2802,7 +2802,7 @@ tbody.collapse.in {
   .custom-file-control:lang(en)::before {
     content: "Browse"; }
 
-.nav {
+.navigate {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none; }

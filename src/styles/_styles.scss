@@ -2,9 +2,14 @@ html {
    overflow-y: scroll;
 }
 
-.nav {
+.navigate {
    color: $purple;
    font-weight: 300;
+}
+
+.navigate:hover {
+   cursor: pointer;
+   text-decoration: underline;
 }
 
 h1 {
