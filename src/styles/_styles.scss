@@ -4,7 +4,7 @@ html {
 
 .nav {
    color: $purple;
-   font-weight: 400;
+   font-weight: 300;
 }
 
 h1 {
@@ -21,4 +21,19 @@ p.price {
    color: $orange;
    margin-top: -1.5rem;
    font-weight: 700;
+}
+
+div.all_rates {
+   margin-top: 2rem;
+   background-color: $grey__lightest;
+   padding: 1rem 1rem 0 1rem;
+   font-weight: 200;
+}
+
+.purple {
+   color: $purple;
+}
+
+.grey {
+   color: $grey;
 }

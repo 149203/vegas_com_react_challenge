@@ -23,7 +23,7 @@ const App = () =>
    </div>
 
    <div className="row">
-      <div className="col-xs-12 col-lg-9 float-xs-right">
+      <div className="col-xs-12 col-lg-8 col-xl-9 float-xs-right">
          <HotelOverview/>
          <div className="clearfix"></div>
          <TabBar/>
@@ -32,7 +32,7 @@ const App = () =>
          <Location/>
       </div>
 
-      <div className="col-xs-12 col-lg-3">
+      <div className="col-xs-12 col-lg-4 col-xl-3">
          <Image/>
          <AllRates/>
       </div>
