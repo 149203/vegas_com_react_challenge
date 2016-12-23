@@ -71,4 +71,13 @@ div.all_rates {
    -webkit-box-shadow: inset 0 -8px 0 -4px $purple__light;
    -moz-box-shadow: inset 0 -8px 0 -4px $purple__light;
    box-shadow: inset 0 -8px 0 -4px $purple__light;
+   color: #ffffff;
+}
+
+.btn:focus, .btn:active:focus {
+   outline: none;
+   -webkit-box-shadow: inset 0 -8px 0 -4px $purple__dark;
+   -moz-box-shadow: inset 0 -8px 0 -4px $purple__dark;
+   box-shadow: inset 0 -8px 0 -4px $purple__dark;
+   color: #ffffff;
 }
