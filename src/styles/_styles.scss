@@ -27,7 +27,7 @@ div.all_rates {
    margin-top: 2rem;
    background-color: $grey__lightest;
    padding: 1rem 1rem 0 1rem;
-   font-weight: 200;
+   font-weight: 300;
 }
 
 .purple {
@@ -36,4 +36,34 @@ div.all_rates {
 
 .grey {
    color: $grey;
+}
+
+.grey__dark {
+   color: $grey__dark
+}
+
+.tab {
+   background-color: $purple;
+}
+
+.col-l-no-gutter {
+   padding-right: 0;
+}
+
+.col-r-no-gutter {
+   padding-left: 0;
+}
+
+.btn-tab {
+   background-color: $purple;
+   color: $purple__light;
+   padding: 1rem 0;
+   font-size: 1.1rem;
+   border: 0;
+}
+
+.btn-tab:hover {
+   -webkit-box-shadow: inset 0 -8px 0 -4px $purple__light;
+   -moz-box-shadow: inset 0 -8px 0 -4px $purple__light;
+   box-shadow: inset 0 -8px 0 -4px $purple__light;
 }

@@ -27,9 +27,8 @@ const App = () =>
          <HotelOverview/>
          <div className="clearfix"></div>
          <TabBar/>
+         <div className="clearfix"></div>
          <Description/>
-         <Details/>
-         <Location/>
       </div>
 
       <div className="col-xs-12 col-lg-4 col-xl-3">
