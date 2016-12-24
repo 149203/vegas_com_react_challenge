@@ -1,7 +1,6 @@
 import React from 'react'
 
 const AllRatesItem = (props) =>
-
     <div className="row">
        <div className="col-xs-9">
           <p className="purple">{props.name}</p>
@@ -10,6 +9,5 @@ const AllRatesItem = (props) =>
           <p className="text-xs-right grey" style={{ marginLeft: '-1rem' }}>{props.price}</p>
        </div>
     </div>
-
 
 export default AllRatesItem

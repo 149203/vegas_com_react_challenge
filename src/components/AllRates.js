@@ -2,17 +2,11 @@ import React from 'react'
 import rates from '../public/api/hotels/index.json'
 import AllRatesItem from '../components/AllRatesItem'
 
-class AllRates extends React.Component {
-
-   render() {
-      return (
-       <div className="all_rates">
-          {rates.list.map(hotel =>
-           <AllRatesItem name={hotel.name} price={hotel.price.toFixed(2)}/>
-          )}
-       </div>
-      )
-   }
-}
+const AllRates = () =>
+ <div className="all_rates">
+    {rates.list.map(hotel =>
+     <AllRatesItem name={hotel.name} price={hotel.price.toFixed(2)}/>
+    )}
+ </div>
 
 export default AllRates
