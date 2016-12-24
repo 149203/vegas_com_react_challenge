@@ -46,7 +46,10 @@ class Description extends React.Component {
           <div className="row mt-1 grey__dark" style={{ marginLeft: '6px', marginRight: '6px' }}>
              <div className="col-xs-12">
                 {excerpt()}
-                <p className="navigate" onClick={(e) => this.toggle_description(e)}>SHOW FULL DESCRIPTION</p>
+                <p className="navigate" onClick={(e) => this.toggle_description(e)}>
+                   SHOW FULL DESCRIPTION&nbsp;
+                   <span className="icon icon__circle">&#x2193;</span>
+                </p>
              </div>
           </div>
          )
@@ -55,7 +58,10 @@ class Description extends React.Component {
        <div className="row mt-1 grey__dark" style={{ marginLeft: '6px', marginRight: '6px' }}>
           <div className="col-xs-12">
              {full_description}
-             <p className="navigate" onClick={(e) => this.toggle_description(e)}>HIDE FULL DESCRIPTION</p>
+             <p className="navigate" onClick={(e) => this.toggle_description(e)}>
+                HIDE FULL DESCRIPTION&nbsp;
+                <span className="icon icon__circle">&#x2191;</span>
+             </p>
           </div>
        </div>
       )

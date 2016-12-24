@@ -106,3 +106,17 @@ div.all_rates {
    color: $grey__light;
    margin-left: .2rem;
 }
+
+.icon__circle {
+   display: inline-block;
+   width: 16px;
+   height: 16px;
+   line-height: 18px; // pixel pushes up a little
+   -moz-border-radius: 50%;
+   border-radius: 50%;
+   background-color: $purple;
+   color: white;
+   text-align: center;
+   font-size: 11px;
+
+}
