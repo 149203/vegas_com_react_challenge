@@ -9,7 +9,7 @@ const map_media = _find(venetian.media, (val) => val.type === 'productMap')
 const Location = () =>
  <div className="row mt-1" style={{ marginLeft: '6px', marginRight: '6px' }}>
     <div className="col-xs-12">
-       <p className="location_label">{full_address}</p>
+       <p className="location_label"><span className="icon">&#x2352;</span>&nbsp;&nbsp;{full_address}</p>
        <img className="img-fluid mb-2" src={`../public${map_media.href}`}/>
     </div>
  </div>

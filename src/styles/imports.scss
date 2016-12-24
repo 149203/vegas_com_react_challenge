@@ -3,9 +3,17 @@
 
 // FONTS
 
+// The font Vegas.com appears to be using is "Mr. Eaves". Here I use "Josefin Sans" which appears to be a close free alternative.
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700);
-
 $font-family-sans-serif: "Josefin Sans", "Helvetica Neue", Arial, sans-serif !default;
+
+@font-face {
+   font-family: 'Icons';
+   src: url('../public/assets/fonts/icons.eot') format('embedded-opentype');
+   src: url(../public/assets/fonts/icons.woff) format('woff'),
+   url(../public/assets/fonts/icons.ttf) format('truetype'),
+   url(../public/assets/fonts/icons.svg#icons) format('svg');
+}
 
 // 3RD PARTY SCSS
 

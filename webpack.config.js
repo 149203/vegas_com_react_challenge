@@ -10,9 +10,9 @@ module.exports = {
    module: {
       loaders: [
          {
-            test: /\.jsx?$/, // a regexp for files ending in js or jsx
+            test: /\.jsx?$/,
             loader: 'babel-loader',
-            include: [ path.resolve(__dirname, 'src'), path.resolve(__dirname, 'node_modules/react-fittext') ], // including fittext becuz of a bug on their end
+            include: [ path.resolve(__dirname, 'src'), path.resolve(__dirname) ],
             query: {
                presets: [ 'es2015', 'react' ]
             }
@@ -24,13 +24,14 @@ module.exports = {
                        'css',
                        'autoprefixer',
                        'sass' ]
-            // use 'loaders' for an array of loaders
-            // loaders run BOTTOM (sass) to TOP (style)
-            // we use 'array style' as opposed to ! delimiter style
          },
          {
             test: /\.json$/,
             loader: 'json'
+         },
+         {
+            test: /\.(woff|ttf|eot|svg)$/,
+            loader: 'url?limit=65000'
          }
       ]
    }
