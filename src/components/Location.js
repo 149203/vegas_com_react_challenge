@@ -1,6 +1,17 @@
 import React from 'react'
+import venetian from '../public/api/hotels/venetian.json'
+import _find from 'lodash/find'
+
+const loc = venetian.location
+const full_address = `${loc.address}, ${loc.city}, ${loc.state} ${loc.postalCode}`
+const map_media = _find(venetian.media, (val) => val.type === 'productMap')
 
 const Location = () =>
- <h1>Location</h1>
+ <div className="row mt-1" style={{ marginLeft: '6px', marginRight: '6px' }}>
+    <div className="col-xs-12">
+       <p className="location_label">{full_address}</p>
+       <img className="img-fluid mb-2" src={`../public${map_media.href}`}/>
+    </div>
+ </div>
 
 export default Location
