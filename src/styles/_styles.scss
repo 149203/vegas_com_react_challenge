@@ -17,11 +17,13 @@ h1 {
    color: $grey;
 }
 
-p.subtext {
+.subtext {
    color: $grey;
+   margin-bottom: 0;
+   -webkit-margin-after: 0;
 }
 
-p.price {
+.price {
    font-size: 4.25rem;
    color: $orange;
    margin-top: -1.5rem;
@@ -97,4 +99,10 @@ div.all_rates {
 
 .icon {
    font-family: "Icons", sans-serif;
+}
+
+.icon-star {
+   font-size: 1rem;
+   color: $grey__light;
+   margin-left: .2rem;
 }
