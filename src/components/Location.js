@@ -5,7 +5,8 @@ import icons from '../components/icons'
 
 const loc = venetian.location
 const full_address = `${loc.address}, ${loc.city}, ${loc.state} ${loc.postalCode}`
-const map_media = _find(venetian.media, (val) => val.type === 'productMap')
+const media = venetian.media
+const map_media = _find(media, (val) => val.type === 'productMap')
 
 const Location = () =>
  <div className="row mt-1" style={{ marginLeft: '6px', marginRight: '6px' }}>

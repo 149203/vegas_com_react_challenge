@@ -10,7 +10,6 @@ function print_stars(rating) {
    return arr
 }
 
-// Using consts for optimization
 const area = venetian.location.areaName
 const phone = venetian.phoneNumber
 const hotel_name = venetian.name

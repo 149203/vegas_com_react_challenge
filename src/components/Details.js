@@ -3,6 +3,8 @@ import venetian from '../public/api/hotels/venetian.json'
 import DetailsItem from '../components/DetailsItem'
 import icons from '../components/icons'
 
+const details = venetian.details
+
 class Details extends React.Component {
 
    constructor() {
@@ -24,7 +26,7 @@ class Details extends React.Component {
       if (this.state.is_excerpt) {
          // set the max_details you want for excerpt
          const max_details = 2
-         const first_details = venetian.details.slice(0, max_details)
+         const first_details = details.slice(0, max_details)
          const excerpt = first_details.map((detail, i) =>
           <DetailsItem detail={detail} key={i}/>
          )
@@ -43,14 +45,14 @@ class Details extends React.Component {
       }
 
       else {
-         const full_description = venetian.details.map((detail, i) =>
+         const full_details = details.map((detail, i) =>
           <DetailsItem detail={detail} key={i}/>
          )
 
          return (
           <div className="row mt-1 grey__dark" style={{ marginLeft: '6px', marginRight: '6px' }}>
              <div className="col-xs-12">
-                {full_description}
+                {full_details}
                 <p className="navigate" onClick={(e) => this.toggle_details(e)}>
                    VIEW LESS DETAILS&nbsp;
                    <span className="icon icon__circle">{icons.up}</span>
