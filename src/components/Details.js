@@ -1,6 +1,7 @@
 import React from 'react'
 import venetian from '../public/api/hotels/venetian.json'
 import DetailsItem from '../components/DetailsItem'
+import icons from '../components/icons'
 
 class Details extends React.Component {
 
@@ -34,7 +35,7 @@ class Details extends React.Component {
                 {excerpt}
                 <p className="navigate" onClick={(e) => this.toggle_details(e)}>
                    VIEW MORE DETAILS&nbsp;
-                   <span className="icon icon__circle">&#x2193;</span>
+                   <span className="icon icon__circle">{icons.down}</span>
                 </p>
              </div>
           </div>
@@ -52,7 +53,7 @@ class Details extends React.Component {
                 {full_description}
                 <p className="navigate" onClick={(e) => this.toggle_details(e)}>
                    VIEW LESS DETAILS&nbsp;
-                   <span className="icon icon__circle">&#x2191;</span>
+                   <span className="icon icon__circle">{icons.up}</span>
                 </p>
              </div>
           </div>

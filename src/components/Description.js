@@ -1,5 +1,6 @@
 import React from 'react'
 import venetian from '../public/api/hotels/venetian.json'
+import icons from '../components/icons'
 
 class Description extends React.Component {
 
@@ -48,7 +49,7 @@ class Description extends React.Component {
                 {excerpt()}
                 <p className="navigate" onClick={(e) => this.toggle_description(e)}>
                    SHOW FULL DESCRIPTION&nbsp;
-                   <span className="icon icon__circle">&#x2193;</span>
+                   <span className="icon icon__circle">{icons.down}</span>
                 </p>
              </div>
           </div>
@@ -60,7 +61,7 @@ class Description extends React.Component {
              {full_description}
              <p className="navigate" onClick={(e) => this.toggle_description(e)}>
                 HIDE FULL DESCRIPTION&nbsp;
-                <span className="icon icon__circle">&#x2191;</span>
+                <span className="icon icon__circle">{icons.up}</span>
              </p>
           </div>
        </div>
