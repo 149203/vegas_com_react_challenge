@@ -22,7 +22,7 @@ class Description extends React.Component {
 
    render() {
 
-      const excerpt = () => {
+      function excerpt() {
          // set the max_chars you want for excerpt; will trim to end of prior paragraph
          const max_chars = 800
          const chunk = description.slice(0, max_chars)

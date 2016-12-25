@@ -30,12 +30,12 @@ class HotelOverview extends React.Component {
       return (
        <div className="row">
           <div className="col-sm-7 col-md-8">
-             <h1 className="hidden-md-down"
+             <h1 className="hidden-sm-down"
                  style={{ textTransform: 'uppercase' }}>{hotel_name}&nbsp;
                 {stars}
              </h1>
 
-             <div className="hidden-lg-up">
+             <div className="hidden-md-up">
                 <h1 style={{ textTransform: 'uppercase' }}>{hotel_name}</h1>
                 <p>
                    {stars}
@@ -56,7 +56,10 @@ class HotelOverview extends React.Component {
              </div>
 
              <div className="hidden-md-up mb-2">
-                <p className="subtext"><span className="icon">{icons.mark}</span>&nbsp;{area}</p>
+                <p className="subtext"
+                   onClick={(e) => {this.go_to_location(e)}}
+                   style={{ cursor: 'pointer' }}>
+                   <span className="icon">{icons.mark}</span>&nbsp;{area}</p>
                 <p className="subtext"><span className="icon">{icons.phone}</span>&nbsp;{phone}</p>
                 <p className="subtext"><span className="icon">{icons.like}</span>&nbsp;Best Price Guarantee</p>
              </div>
