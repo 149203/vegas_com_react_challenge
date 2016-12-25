@@ -34,8 +34,12 @@ module.exports = {
             loader: 'url?limit=65000'
          },
          {
-            test: /\.(png|jpg)$/,
+            test: /\.html$/,
             loader: 'file-loader?name=[name].[ext]'
+         },
+         {
+            test: /\.(png|jpg)$/,
+            loader: 'file-loader?name=public/assets/images/[name].[ext]'
          }
       ]
    }

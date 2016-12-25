@@ -13,6 +13,7 @@ import Details from './components/Details'
 import Location from './components/Location'
 
 require('./styles/imports.scss')
+require('./index.html')
 // using require instead of import because importing something that webstorm views as not used in this file, will be deleted on beautify
 
 const App = () =>
