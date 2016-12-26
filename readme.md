@@ -70,5 +70,6 @@ There's always more work to be done on code. Here's what I would suggest doing i
 
 - [ ] Use CSS modules.
 - [ ] Throw out (instead of just minimizing) any unused Bootstrap SCSS. (Or roll our own responsive grid; though I'm assuming Vegas.com has its own grid.)
-- [ ] Use production version of React
-- [ ] If using a Google font in production, use [Google Web Font Loader](https://github.com/typekit/webfontloader) to avoid FOUC
+- [ ] Use production version of React.
+- [ ] Refactor all JavaScript methods to use Lodash methods instead, and import them separately.
+- [ ] If using a Google font in production, use [Google Web Font Loader](https://github.com/typekit/webfontloader) to avoid FOUC.
