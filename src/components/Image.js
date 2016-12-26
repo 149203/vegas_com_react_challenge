@@ -6,5 +6,5 @@ const media = venetian.media
 const image_media = _find(media, (val) => val.type === 'productImage')
 
 const Image = () =>
- <img className="img-fluid" src={require('../public/assets/images/venetian.jpg')}/>
+ <img className="img-fluid" src='public/assets/images/venetian.jpg'/>
 export default Image

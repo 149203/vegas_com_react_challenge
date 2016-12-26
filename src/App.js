@@ -14,7 +14,7 @@ import Location from './components/Location'
 
 require('./styles/imports.scss')
 require('./index.html')
-// using require instead of import because importing something that webstorm views as not used in this file, will be deleted on beautify
+// using require instead of import because importing something that webstorm views as not used in this file will be deleted on beautify
 
 const App = () =>
 
@@ -32,9 +32,9 @@ const App = () =>
              <div className="clearfix"></div>
              <TabBar/>
              <div className="clearfix"></div>
-             <Match exactly pattern={'/'} component={Description} />
-             <Match pattern={'/details'} component={Details} />
-             <Match pattern={'/location'} component={Location} />
+             <Match exactly pattern='/' component={Description} />
+             <Match pattern='/details' component={Details} />
+             <Match pattern='/location' component={Location} />
           </div>
 
           <div className="col-xs-12 col-lg-4 col-xl-3">

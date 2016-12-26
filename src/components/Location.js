@@ -12,7 +12,7 @@ const Location = () =>
  <div className="row mt-1" style={{ marginLeft: '6px', marginRight: '6px' }}>
     <div className="col-xs-12">
        <p className="location_label"><span className="icon">{icons.mark}</span>&nbsp;&nbsp;{full_address}</p>
-       <img className="img-fluid mb-2" src={`public${map_media.href}`}/>
+       <img className="img-fluid mb-2" src='public/assets/images/venetian.jpg'/>
     </div>
  </div>
 
