@@ -54,7 +54,7 @@ class Details extends React.Component {
              <div className="col-xs-12">
                 {full_details}
                 <p className="navigate" onClick={(e) => this.toggle_details(e)}>
-                   VIEW LESS DETAILS&nbsp;
+                   VIEW FEWER DETAILS&nbsp;
                    <span className="icon icon__circle">{icons.up}</span>
                 </p>
              </div>
