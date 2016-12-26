@@ -1,6 +1,6 @@
 ## Vegas.com React Markup Exercise
 
-Author: Mike Ziethlow
+Author: [Mike Ziethlow](http://mikeziethlow.com/)
 
 A live, working version can be found on my test site: http://ripmi.com/
 
