@@ -35,7 +35,7 @@ Because this design is responsive, there is some variation on the exact pixels a
 
 The font Vegas.com appears to be using is "Mr. Eaves". Here I use "Josefin Sans" which is a close free alternative.
 
-Also, hard-coding heights and widths won't work well in responsive design. (For example, a 200px height of an element may look tiny on large screens and overwhelmingly dominant on small screens.) I made the excerpt of the Description and Details page responsive by setting a variable in the code to handle whatever content comes from the API:
+Also, hard-coding heights and widths won't work well in responsive design. (For example, a 200px height of an element may look tiny on large screens and overwhelmingly dominant on small screens.) I made the excerpt of the Description and Details page responsive (while matching the screenshots) by setting a variable in the code to handle whatever content comes from the API:
 
 _Description.js_
 ```javascript
