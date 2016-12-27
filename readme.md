@@ -21,6 +21,10 @@ Then type `npm start`.
 - [x] Map marker and "Strip" text open the Location tab
 - [x] Minimize all HTML, CSS, JS for production
 
+### Markup Exercise vs. React Markup Exercise
+
+I asked to do both exercises, though when I saw they were essentially the same if I chose to use React as my front-end framework, I focused on the React Markup Exercise. I understood all of the exercise except the Redux implementation. My experience has been with React + Meteor as opposed to React + Redux so I was behind in that regard. I could spend time learning Redux and have a Redux solution in a couple days, but I wanted to get the working app that I have in by the Tuesday deadline we discussed. The app as it stands meets all the requirements for the Markup Exercise and all but the Redux requirement for the React Markup Exercise. (Right now I'm simply importing the JSON.) I began work on the Redux application and have logged my progress in issue #1.
+
 ### Extra
 
 Since we discussed responsive web design on the phone, I made this design responsive -- viewable on all browsers and devices.
@@ -68,6 +72,8 @@ const excerpt = first_details.map((detail, i) =>
 
 There's always more work to be done on code. Here's what I would suggest doing if we had the time.
 
+
+- [ ] Propagate data with Redux; see #1
 - [ ] Use CSS modules.
 - [ ] Throw out (instead of just minimizing) any unused Bootstrap SCSS. (Or roll our own responsive grid; though I'm assuming Vegas.com has its own grid.)
 - [ ] Use production version of React.
